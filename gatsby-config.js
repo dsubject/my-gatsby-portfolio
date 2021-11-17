@@ -1,7 +1,23 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
     title: "My Gatsby Blog",
+    menuLinks:[
+      {
+        name: 'home',
+        link:'/'
+      }
+    ]
   },
-  plugins: [],
+  plugins: [
+    `gatsby-plugin-react-helmet`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `markdown-pages`,
+        path: `${__dirname}/src/markdown-pages`,
+      },
+    },
+    `gatsby-transformer-remark`,
+    `gatsby-plugin-gatsby-cloud`
+  ],
 };
