@@ -7,19 +7,13 @@ import { useStaticQuery, graphql, Link } from "gatsby"
 import Layout from "../components/layout"
 
 // styles
-const pageStyles = {
-  color: 'var(--textNormal)',
-  padding: 96,
-  fontFamily: "'IBM Plex Mono', monospace",
-}
-
 const headingStyles = {
   marginTop: 0,
   marginBottom: 64,
   maxWidth: 320,
 }
 const headingAccentStyles = {
-  color: "var(--subtitle)",
+  color: "#c39eff",
 }
 const paragraphStyles = {
   marginBottom: 48,
