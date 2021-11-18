@@ -4,7 +4,7 @@ import LinkedInIcon from "../assets/linkedin.svg"
 import GithubIcon from "../assets/github.svg"
 import { Helmet } from "react-helmet"
 import { useStaticQuery, graphql, Link } from "gatsby"
-import { ThemeToggler } from 'gatsby-plugin-dark-mode'
+import Layout from "../components/layout"
 
 // styles
 const pageStyles = {
@@ -78,23 +78,7 @@ const links = [
 // markup
 const IndexPage = () => {
   return (
-    <main style={pageStyles}>
-      <Helmet>
-        <title>Dani Subject</title>
-        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap" rel="stylesheet"/>
-      </Helmet>
-      <ThemeToggler>
-        {({ theme, toggleTheme }) => (
-          <label>
-            <input
-              type="checkbox"
-              onChange={e => toggleTheme(e.target.checked ? 'dark' : 'light')}
-              checked={theme === 'dark'}
-            />{' '}
-            Dark mode
-          </label>
-        )}
-      </ThemeToggler>
+    <Layout>
       <h1 style={headingStyles}>
         Dani Subject
         <br />
@@ -123,7 +107,7 @@ const IndexPage = () => {
       <img src={InstagramIcon} alt="instagram icon" />{" "}
       <img src={LinkedInIcon} alt="linkedin icon" />{" "}
       <img src={GithubIcon} alt="github icon" />
-    </main>
+    </Layout>
   )
 }
 
