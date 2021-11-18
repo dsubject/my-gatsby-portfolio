@@ -16,7 +16,7 @@ const Nav = ({ siteTitle, menuLinks }) => (
                 paddingBottom: '1rem'
                 }}
             >
-                <Link style={{ color: `#232129` }} to={link.link}>
+                <Link style={{ color: `#c39eff` }} to={link.link}>
                 {link.name}
                 </Link>
             </li>

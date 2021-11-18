@@ -18,7 +18,6 @@ module.exports = {
       },
     },
     `gatsby-transformer-remark`,
-    `gatsby-plugin-gatsby-cloud`,
-    'gatsby-plugin-dark-mode'
+    `gatsby-plugin-gatsby-cloud`
   ],
 };
