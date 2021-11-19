@@ -1,5 +1,5 @@
 import React from "react"
-import { graphql } from "gatsby"
+import { graphql, Link } from "gatsby"
 import PostLink from "../components/post-link"
 import { Helmet } from "react-helmet"
 import Layout from "../components/layout"
@@ -10,15 +10,22 @@ const headingStyles = {
 }
 
 const headingAccentStyles = {
-  color: "#c39eff",
+  color: "#DDB8FF",
 }
 
 const blurbStyles = {
   display: 'flex',
   justifyContent: 'center',
   paddingBottom: 20,
-  maxWidth: '60%',
-  marginTop: 0
+  marginTop: 0,
+  alignItems: 'center'
+}
+
+const blogListContainer = {
+  justifyContent: 'center',
+  display: 'flex',
+  flexDirection: 'column',
+  paddingBottom: 30
 }
 
 const Blog = ({
@@ -32,13 +39,14 @@ const Blog = ({
 
   return (
     <Layout>
-      <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
+      <Link to="/">home</Link>
+      <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', marginTop: 20}}>
         <h1 style={headingStyles}>
           <span style={headingAccentStyles}>Changing the Subject</span>
         </h1>
         <p style={blurbStyles}>Named after a column she used to write at the University of Guelph's student newspaper, Changing the Subject is a blog written by Danielle Subject. Her posts explore (but are not limited to) tech, the environment, and mental health.</p>
       </div>
-      <div>{Posts}</div>
+      <div style={blogListContainer}>{Posts}</div>
     </Layout>
   )
 }
@@ -51,7 +59,7 @@ export const pageQuery = graphql`
       edges {
         node {
           id
-          excerpt(pruneLength: 250)
+          excerpt(pruneLength: 150)
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
             slug

@@ -1,7 +1,19 @@
 body {
-    background-color: #131127;
+    background-color: #282C35;
 }
 
 body a{
-    color: #c39eff;
+    color: #DDB8FF;
+}
+
+.blog-post-content p {
+    margin-bottom: 1.75rem;
+}
+
+.blog-post-content a {
+    color: #ffa7c4;
+}
+
+a:hover {
+    color: white;
 }

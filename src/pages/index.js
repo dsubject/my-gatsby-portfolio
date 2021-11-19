@@ -1,24 +1,18 @@
 import * as React from "react"
-import InstagramIcon from "../assets/instagram.svg"
-import LinkedInIcon from "../assets/linkedin.svg"
-import GithubIcon from "../assets/github.svg"
 import { Helmet } from "react-helmet"
 import { useStaticQuery, graphql, Link } from "gatsby"
 
-// styles
-const pageStyles = {
-  color: 'rgba(255, 255, 255, 0.88)',
-  padding: 96,
-  fontFamily: "'IBM Plex Mono', monospace",
-}
+import Footer from "../components/footer"
+import Layout from "../components/layout"
 
+// styles
 const headingStyles = {
   marginTop: 0,
   marginBottom: 64,
   maxWidth: 320,
 }
 const headingAccentStyles = {
-  color: "#c39eff",
+  color: "#DDB8FF",
 }
 const paragraphStyles = {
   marginBottom: 48,
@@ -64,7 +58,7 @@ const links = [
   },
   {
     text: "Publications",
-    url: "",
+    url: "http://localhost:8000/publications",
     color: "#1099A8"
   },
 ]
@@ -72,11 +66,7 @@ const links = [
 // markup
 const IndexPage = () => {
   return (
-    <main style={pageStyles}>
-      <Helmet>
-        <title>Dani Subject</title>
-        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap" rel="stylesheet"/>
-      </Helmet>
+    <Layout>
       <h1 style={headingStyles}>
         Dani Subject
         <br />
@@ -86,7 +76,7 @@ const IndexPage = () => {
         </span>
       </h1>
       <p style={paragraphStyles}>
-        Hi! I'm Danielle, but you can call me Dani. Welcome to my blog, Changing the Subject. I'm a writer, software developer and beekeeper (yup, you read that right) based out of Toronto. After losing my job in 2017, I realized I wasn't happy with the path that I was on, and I made the switch into software development. You can read a bit about that journey here. {" "}
+        Hi! I'm Danielle, but you can call me Dani. I'm a software developer, writer, and beekeeper (yup, you read that right) based out of Toronto. Welcome to my website. 
       </p>
       <ul style={listStyles}>
         {links.map(link => (
@@ -102,10 +92,7 @@ const IndexPage = () => {
           </li>
         ))}
       </ul>
-      <img src={InstagramIcon} alt="instagram icon" />{" "}
-      <img src={LinkedInIcon} alt="linkedin icon" />{" "}
-      <img src={GithubIcon} alt="github icon" />
-    </main>
+    </Layout>
   )
 }
 
