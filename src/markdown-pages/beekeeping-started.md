@@ -16,8 +16,6 @@ That “conversation with a friend” occurred in Nova Scotia with my good frien
 
 According to the <a href="https://davidsuzuki.org/project/pollinators/" target="_blank">David Suzuki Foundation</a>, “over three quarters of wild flowering plants and one-third of the food we eat depend on insect pollination.” Many of these insects that we know to be at the forefront of pollination, such as bees and butterflies, are endangered. So, Steve and I asked each other, <em>what can we do to help?</em> He suggested getting a beehive. I was intimidated by the idea at first, but after a bit of coaxing, I was game. 
 
-![A box of bees aka nuc](./beesGatsby.png)
-
 So we purchased our first honeybees. We sourced two <a href="https://en.wikipedia.org/wiki/Langstroth_hive" target="_blank">Langstroth hives</a> from a local beekeeping supplies store, and also ordered two “nucs,” which stands for nucleus colonies. A nuc is a compact honeybee colony typically comprised of three to six frames. The ones we purchase come with four frames — two frames of honey for food, two frames of brood (bee babies), worker bees, and one queen. The nuc arrives in a cardboard box (see above photo) that you pick up and bring to your hive for installation. 
 
 
