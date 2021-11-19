@@ -53,12 +53,12 @@ const descriptionStyle = {
 const links = [
   {
     text: "Blog",
-    url: "http://localhost:8000/blog",
+    url: "https://daniellesubject.com/blog",
     color: "#8954A8"
   },
   {
     text: "Publications",
-    url: "http://localhost:8000/publications",
+    url: "https://daniellesubject.com/publications",
     color: "#1099A8"
   },
 ]
