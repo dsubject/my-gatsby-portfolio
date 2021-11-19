@@ -49,7 +49,7 @@ export default function Template({
         <h1 style={headerStyle}>{frontmatter.title}</h1>
         <p style={subheaderStyle}>{frontmatter.date}</p>
         { frontmatter.featuredImgAlt ? 
-          <Img fluid={frontmatter.featuredImage.childImageSharp.fluid} alt={frontmatter.featuredImgAlt} /> : null
+          <Img fluid={frontmatter.featuredImage.childImageSharp.fluid} alt={frontmatter.featuredImgAlt} loading="lazy" /> : null
         }
         <div
           style={contentContainer}
