@@ -7,7 +7,7 @@ import Img from "gatsby-image"
 const containerStyle = {
   color: 'rgba(255, 255, 255, 0.88)',
   padding: 96,
-  fontFamily: "'Merriweather', Georgia, serif",
+  fontFamily: "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
   display: 'flex',
   justifyContent: 'center',
   alignItems: 'center',

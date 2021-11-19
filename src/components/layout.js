@@ -1,6 +1,5 @@
 import React from "react"
 import { Helmet } from "react-helmet"
-import { useStaticQuery, graphql } from "gatsby"
 
 import Footer from "../components/footer"
 
@@ -18,7 +17,6 @@ const Layout = ({ children }) => {
         <main style={pageStyles}>
             <Helmet>
                 <title>Dani Subject</title>
-                <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&family=Merriweather&display=swap" rel="stylesheet" />
                 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap" rel="stylesheet"/>
             </Helmet>
             {children}

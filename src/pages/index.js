@@ -1,8 +1,5 @@
 import * as React from "react"
-import { Helmet } from "react-helmet"
-import { useStaticQuery, graphql, Link } from "gatsby"
-
-import Footer from "../components/footer"
+import { Link } from "gatsby"
 import Layout from "../components/layout"
 
 // styles
@@ -33,20 +30,6 @@ const linkStyle = {
   fontWeight: "bold",
   fontSize: 16,
   verticalAlign: "5%"
-}
-
-const docLinkStyle = {
-  ...linkStyle,
-  listStyleType: "none",
-  marginBottom: 24,
-}
-
-const descriptionStyle = {
-  color: "#232129",
-  fontSize: 14,
-  marginTop: 10,
-  marginBottom: 0,
-  lineHeight: 1.25,
 }
 
 // data
