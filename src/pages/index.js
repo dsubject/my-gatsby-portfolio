@@ -2,6 +2,8 @@ import * as React from "react"
 import { Helmet } from "react-helmet"
 import { useStaticQuery, graphql, Link } from "gatsby"
 
+import "../components/layout.css"
+
 import Footer from "../components/footer"
 import Layout from "../components/layout"
 
@@ -53,12 +55,12 @@ const descriptionStyle = {
 const links = [
   {
     text: "Blog",
-    url: "http://localhost:8000/blog",
+    url: "http://daniellesubject.com/blog",
     color: "#8954A8"
   },
   {
     text: "Publications",
-    url: "http://localhost:8000/publications",
+    url: "http://daniellesubject.com/publications",
     color: "#1099A8"
   },
 ]

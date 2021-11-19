@@ -4,6 +4,8 @@ import PostLink from "../components/post-link"
 import { Helmet } from "react-helmet"
 import Layout from "../components/layout"
 
+import "../components/layout.css"
+
 const headingStyles = {
   marginBottom: 64,
 }

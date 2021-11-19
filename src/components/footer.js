@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
+import "./layout.css"
 
 import InstagramIcon from "../assets/instagram.svg"
 import LinkedInIcon from "../assets/linkedin.svg"
