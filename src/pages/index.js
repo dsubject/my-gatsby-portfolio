@@ -1,9 +1,8 @@
 import * as React from "react"
-import InstagramIcon from "../assets/instagram.svg"
-import LinkedInIcon from "../assets/linkedin.svg"
-import GithubIcon from "../assets/github.svg"
 import { Helmet } from "react-helmet"
 import { useStaticQuery, graphql, Link } from "gatsby"
+
+import Footer from "../components/footer"
 import Layout from "../components/layout"
 
 // styles
@@ -13,7 +12,7 @@ const headingStyles = {
   maxWidth: 320,
 }
 const headingAccentStyles = {
-  color: "#c39eff",
+  color: "#DDB8FF",
 }
 const paragraphStyles = {
   marginBottom: 48,
@@ -58,13 +57,8 @@ const links = [
     color: "#8954A8"
   },
   {
-    text: "Tutorial",
-    url: "http://localhost:8000/testHome",
-    color: "#E95800"
-  },
-  {
     text: "Publications",
-    url: "https://www.gatsbyjs.com/docs/how-to/",
+    url: "http://localhost:8000/publications",
     color: "#1099A8"
   },
 ]
@@ -82,7 +76,7 @@ const IndexPage = () => {
         </span>
       </h1>
       <p style={paragraphStyles}>
-        Hi! I'm Danielle, but you can call me Dani. Welcome to my blog, Changing the Subject. I'm a writer, software developer and beekeeper (yup, you read that right) based out of Toronto. After losing my job in 2017, I realized I wasn't happy with the path that I was on, and I made the switch into software development. You can read a bit about that journey here. {" "}
+        Hi! I'm Danielle, but you can call me Dani. I'm a software developer, writer, and beekeeper (yup, you read that right) based out of Toronto. Welcome to my website. 
       </p>
       <ul style={listStyles}>
         {links.map(link => (
@@ -98,9 +92,6 @@ const IndexPage = () => {
           </li>
         ))}
       </ul>
-      <img src={InstagramIcon} alt="instagram icon" />{" "}
-      <img src={LinkedInIcon} alt="linkedin icon" />{" "}
-      <img src={GithubIcon} alt="github icon" />
     </Layout>
   )
 }

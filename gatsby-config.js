@@ -1,13 +1,6 @@
 module.exports = {
   siteMetadata: {
     title: "My Gatsby Blog",
-    menuLinks:[
-      {
-        name: 'home',
-        link:'/'
-      }
-    ]
-  },
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
@@ -17,7 +10,21 @@ module.exports = {
         path: `${__dirname}/src/markdown-pages`,
       },
     },
-    `gatsby-transformer-remark`,
-    `gatsby-plugin-gatsby-cloud`
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 800,
+            },
+          },
+        ],
+      },
+    },
+    `gatsby-plugin-gatsby-cloud`,
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
   ],
 };

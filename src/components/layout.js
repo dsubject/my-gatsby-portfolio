@@ -1,36 +1,28 @@
 import React from "react"
 import { Helmet } from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
-import Nav from "./nav"
+
+import Footer from "../components/footer"
 
 const pageStyles = {
   color: 'rgba(255, 255, 255, 0.88)',
   padding: 96,
   fontFamily: "'IBM Plex Mono', monospace",
+  maxWidth: '42rem',
+  marginRight: 'auto',
+  marginLeft: 'auto'
 }
 
 const Layout = ({ children }) => {
-  const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-            menuLinks {
-              name
-              link
-           }
-        }
-      }
-    }
-  `)
     return (
         <main style={pageStyles}>
-        <Helmet>
-            <title>Dani Subject</title>
-            <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap" rel="stylesheet"/>
-        </Helmet>
-        <Nav menuLinks={data.site.siteMetadata.menuLinks} />
-        {children}
+            <Helmet>
+                <title>Dani Subject</title>
+                <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&family=Merriweather&display=swap" rel="stylesheet" />
+                <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap" rel="stylesheet"/>
+            </Helmet>
+            {children}
+            <Footer />
         </main>
     )
 }
