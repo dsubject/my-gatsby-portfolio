@@ -4,9 +4,14 @@ import LinkedInIcon from "../assets/linkedin.svg"
 import GithubIcon from "../assets/github.svg"
 import { Helmet } from "react-helmet"
 import { useStaticQuery, graphql, Link } from "gatsby"
-import Layout from "../components/layout"
 
 // styles
+const pageStyles = {
+  color: 'rgba(255, 255, 255, 0.88)',
+  padding: 96,
+  fontFamily: "'IBM Plex Mono', monospace",
+}
+
 const headingStyles = {
   marginTop: 0,
   marginBottom: 64,
@@ -58,13 +63,8 @@ const links = [
     color: "#8954A8"
   },
   {
-    text: "Tutorial",
-    url: "http://localhost:8000/testHome",
-    color: "#E95800"
-  },
-  {
     text: "Publications",
-    url: "https://www.gatsbyjs.com/docs/how-to/",
+    url: "",
     color: "#1099A8"
   },
 ]
@@ -72,7 +72,11 @@ const links = [
 // markup
 const IndexPage = () => {
   return (
-    <Layout>
+    <main style={pageStyles}>
+      <Helmet>
+        <title>Dani Subject</title>
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap" rel="stylesheet"/>
+      </Helmet>
       <h1 style={headingStyles}>
         Dani Subject
         <br />
@@ -101,7 +105,7 @@ const IndexPage = () => {
       <img src={InstagramIcon} alt="instagram icon" />{" "}
       <img src={LinkedInIcon} alt="linkedin icon" />{" "}
       <img src={GithubIcon} alt="github icon" />
-    </Layout>
+    </main>
   )
 }
 
