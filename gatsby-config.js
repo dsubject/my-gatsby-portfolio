@@ -1,6 +1,13 @@
 module.exports = {
   siteMetadata: {
     title: "My Gatsby Blog",
+        menuLinks:[
+      {
+        name: 'home',
+        link:'/'
+      }
+    ]
+  },
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
