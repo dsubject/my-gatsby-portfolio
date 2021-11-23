@@ -17,3 +17,7 @@ body a{
 a:hover {
     color: white;
 }
+
+code {
+    background-color: rgba(115,124,153,0.2);
+}
