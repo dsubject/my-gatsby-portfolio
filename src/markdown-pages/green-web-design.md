@@ -2,6 +2,8 @@
 slug: "/blog/green-web-design"
 date: "2021-11-23"
 title: "Green Web Design"
+featuredImage: daniBeekeeper.png
+featuredImgAlt: "The author kneeling next to one of her hives"
 ---
 
 I built this site to be as minimal as possible — the smaller the web page, the less energy is required to view it. According to a really amazing tool developed by Digital Wholesome, the average web page tested produces 1.76 grams of CO2 per page view. For a site that carries 10,000 page views per month, that's 211 kg of CO2 per year. 
@@ -42,17 +44,17 @@ I'm not advocating for everyone to throw away dynamic web building and go back t
 
 My website kind of looks like it was built in 1999, and that was on purpose. By keeping the UI as simple as possible, I've made it easier for browsers to generate my web pages. I've accomplished this using a few different techniques. 
 
-    - Fewer font variations
-        Every time you add a fancy font style to your site, that's one more request that has to be sent and more file weight is added. By sticking to system fonts, which are the fonts already installed on your device, I've taken some load off of the browser and basically told it to default to whatever font its most comfortable with, regardless of what operating system is being used. 
-    
-    - Limited the use of images as much as possible
-        Images are one of the biggest contributing factors to the amount of data transferred on the web. 
-    - Implemented "lazy-loading" on images
-        Lazy loading is a term used to describe delaying initialization of resources such as images. Basically, lazy loading images reduces the time it takes a web page to load as well as its page weight because it means the images will only be loaded if the user needs them. 
-    - Optimized images
-        I used a tool called TinyPNG to reducing the size of the images I used as much as possible without it being obvious to the site user. 
-    - Limited use of JavaScript
-        I reduced the need for JS as much as possible, which improves processing time
+- Fewer font variations
+Every time you add a fancy font style to your site, that's one more request that has to be sent and more file weight is added. By sticking to system fonts, which are the fonts already installed on your device, I've taken some load off of the browser and basically told it to default to whatever font its most comfortable with, regardless of what operating system is being used. 
+
+- Limited the use of images as much as possible
+Images are one of the biggest contributing factors to the amount of data transferred on the web. 
+- Implemented "lazy-loading" on images
+Lazy loading is a term used to describe delaying initialization of resources such as images. Basically, lazy loading images reduces the time it takes a web page to load as well as its page weight because it means the images will only be loaded if the user needs them. 
+- Optimized images
+I used a tool called TinyPNG to reducing the size of the images I used as much as possible without it being obvious to the site user. 
+- Limited use of JavaScript
+I reduced the need for JS as much as possible, which improves processing time
 
 Outside of page size, another factor that comes into play when talking about a website's carbon footprint is usability, and this includes Search Engine Optimization (SEO) and accessibility. For example, the less time a user takes to browse for what they need, the less power they are using. If a site has good SEO, it won't take long for a user to find it. The same can be said for a website that has clear navigation, labels, and content. Additionally, if a site has good SEO that positively impacts accessibility, since writing clear and concise alt text makes it easier for a screen reader to go through a web page. Less time browsing means less unnecessary page loads and screentime = less energy consumed.
 
