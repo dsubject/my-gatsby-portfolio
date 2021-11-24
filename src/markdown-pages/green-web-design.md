@@ -36,7 +36,7 @@ Now you understand how a web page is generated — let's dive into how this site
 
 <h3>For starters, this is a static site.</h3> 
 
-This site was built with GatsbyJS, which is a static site generator built in React. 
+This site was built with <a href="https://www.gatsbyjs.com/" target="_blank">GatsbyJS</a>, which is a static site generator built in React. 
 
 What does that mean? <b>Let's go back to the explanation of a web page I gave you earlier in this post</b>. A browser is served html, css, and javascript files that are used to build what you're looking at. For static web pages, the browser transcribes these files and builds the elements of the web page. This is also known as "client-side processing" --> the "client" being your browser. The browser makes a request to the web server for info, and is sent back files that tell it how to render the web page. The pages are pre-rendered and most of the content is cached. 
 
@@ -68,6 +68,10 @@ I used a tool called <a href="https://tinypng.com/" target="_blank">TinyPNG</a> 
 
 I reduced the need for JS as much as possible, which improves processing time.
 
+<h3>Content Delivery Networks (CDN)</h3>
+
+Remember when I mentioned earlier that the distance between the browser and server matters? The further apart the two are, the slower your site will be and the more power is consumed transferring your site's files. CDN's offer a really cool solution to that. CDN's deliver content through its own network of global servers. It works by caching a copy of your site's files on multiple servers around the world, so when a user visits your site, these files are served to their browser from the nearest server. 
+
 <h3>Search Engine Optimization (SEO)</h3>
 
 Aside from page size, another factor that comes into play when talking about a website's carbon footprint is usability, and this includes SEO and accessibility. For example, the less time a user takes to browse for what they need, the less power they are using. If a site has good SEO, it won't take long for a user to find it. The same can be said for a website that has clear navigation, labels, and content. Additionally, since writing clear and concise alt text makes it easier for a screen reader to go through a web page, a site that has good SEO will probably have a good accessibility rating. Less time browsing means less unnecessary page loads and screentime = less energy consumed.
@@ -75,6 +79,8 @@ Aside from page size, another factor that comes into play when talking about a w
 <h3>Final Thoughts</h3>
 
 Whether you have a Wordpress blog, an ecommerce site, or a company page, what can you do to reduce that page weight? Can you simplify your UI to reduce the need for so many custom fonts and images? How can you improve SEO to make it easier for users to find what they need, improving both user experience and environmental impact? The more we embed these values into what we build for the web, the closer we will be to creating a more sustainable web for the future. 
+
+If you're interested in taking a look at the code behind this site, checkout my <a href="https://github.com/dsubject/my-gatsby-blog" target="_blank">public repo</a> on Github.
         
 
 
