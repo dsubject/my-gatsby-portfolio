@@ -6,13 +6,9 @@ import Img from "gatsby-image"
 
 const containerStyle = {
   color: 'rgba(255, 255, 255, 0.88)',
-  padding: 96,
   display: 'flex',
   justifyContent: 'center',
   alignItems: 'center',
-  maxWidth: '42rem',
-  marginRight: 'auto',
-  marginLeft: 'auto'
 }
 
 const headerStyle = {
