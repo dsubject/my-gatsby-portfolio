@@ -50,7 +50,7 @@ My website kind of looks like it was built in 1999, and that was on purpose. By 
 
 <h3>Fewer font variations</h3>
 
-Every time you add a fancy font style to your site, that's one more request that has to be sent and more file weight is added. By sticking to system fonts, which are the fonts already installed on your device, I've taken some load off of the browser and basically told it to default to whatever font its most comfortable with, regardless of what operating system is being used. 
+Every time you add a fancy font style to your site, that's one more request that has to be sent and more file weight is added. By sticking to system fonts, which are the fonts already installed on your device, I've taken some load off of the browser and basically told it to default to whatever font it's most comfortable with, regardless of what operating system is being used. 
 
 <h3>Limited the use of images as much as possible</h3>
 
