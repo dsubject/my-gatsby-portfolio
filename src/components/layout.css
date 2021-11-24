@@ -21,3 +21,9 @@ a:hover {
 code {
     background-color: rgba(115,124,153,0.2);
 }
+
+@media screen and (max-width: 450px) {
+    .main-container {
+        padding: 2rem !important;
+    }
+  }
