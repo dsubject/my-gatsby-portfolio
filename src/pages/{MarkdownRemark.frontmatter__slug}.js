@@ -30,7 +30,7 @@ const subheaderStyle = {
 }
 
 const contentContainer = {
-  fontSize: '1rem',
+  fontSize: '1.125rem',
   lineHeight: "1.75"
 }
 

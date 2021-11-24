@@ -27,8 +27,6 @@ const listItemStyles = {
 }
 
 const linkStyle = {
-  fontWeight: "bold",
-  fontSize: 16,
   verticalAlign: "5%"
 }
 
@@ -65,12 +63,12 @@ const IndexPage = () => {
         {links.map(link => (
           <li key={link.url} style={{ ...listItemStyles }}>
             <span>
-              [<Link
+              [{" "}<Link
                 style={linkStyle}
                 to={`${link.url}?utm_source=starter&utm_medium=start-page&utm_campaign=minimal-starter`}
               >
                 {link.text}
-              </Link>]
+              </Link>{" "}]
             </span>
           </li>
         ))}
