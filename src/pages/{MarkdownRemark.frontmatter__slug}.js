@@ -37,7 +37,7 @@ export default function Template({
   const { frontmatter, html } = markdownRemark
 
   return (
-    <Layout>
+    <Layout title="Danielle Subject: Blog">
     <Link to="/blog">blog</Link>
     <div style={containerStyle} className="blog-post-container">
       <div className="blog-post">

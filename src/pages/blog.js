@@ -40,7 +40,7 @@ const Blog = ({
     .map(edge => <PostLink key={edge.node.id} post={edge.node} />)
 
   return (
-    <Layout>
+    <Layout title="Danielle Subject: Blog">
       <Link to="/">home</Link>
       <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', marginTop: 20}}>
         <h1 style={headingStyles}>

@@ -12,12 +12,13 @@ const pageStyles = {
   maxWidth: '42rem'
 }
 
-const Layout = ({ children }) => {
+const Layout = ({ children, title }) => {
     return (
         <main className="main-container" style={pageStyles}>
-            <Helmet>
-                <title>Dani Subject</title>
-            </Helmet>
+            <Helmet 
+                defaultTitle="Danielle Subject" 
+                title={title} 
+            />
             {children}
             <Footer />
         </main>
