@@ -12,7 +12,7 @@ I didn't write this post to tell you how to build a site. I'm not asking you to 
 
 Before I get into the nitty gritty of how this site came to be, let's talk about what happens when you type in a URL and hit "enter".
 
-A web page is built using HTML, CSS and usually some JavaScript. HTML is a markup language, meaning it is the reason you see pieces of information displayed on a web page. For example, images, paragraph text, titles, and other pieces of a page are displayed using HTML. The HTML is also responsible for telling search engines and browsers what is on a page. For example: 
+A web page is built using HTML, CSS, and usually some JavaScript. HTML is a markup language, meaning it is the reason you see pieces of information displayed on a web page. For example, images, paragraph text, titles, and other pieces of a page are displayed using HTML. The HTML is also responsible for telling search engines and browsers what is on a page. For example: 
 <code>< img src="./fakeimagepath" alt="dog running with a stick" /></code> 
 This code snippet tells the browser there's an image with some alt text, now display it. It's the skeletal makeup of a web page. 
 
@@ -40,9 +40,9 @@ This site was built with <a href="https://www.gatsbyjs.com/" target="_blank">Gat
 
 What does that mean? <b>Let's go back to the explanation of a web page I gave you earlier in this post</b>. A browser is served html, css, and javascript files that are used to build what you're looking at. For static web pages, the browser transcribes these files and builds the elements of the web page. This is also known as "client-side processing" --> the "client" being your browser. The browser makes a request to the web server for info, and is sent back files that tell it how to render the web page. The pages are pre-rendered and most of the content is cached. 
 
-Dynamic websites, on the other hand, use something called "server-side processing." These sites are what we call "web applications." They have a higher level of interactivity than a static site and the HTML is generated dynamically, meaning the web page elements are created by the application server and sent to the browser. In very simplified terms, server-side processing involves a middle person in the file transfer process known as the application server. This time, the client (your browser) sends a request to the web server, but instead of the web server sending its response directly back to the client and the client doing all the work, it dispatches the request to the application server. The application server will probably add an extra step of requesting data from a database, then sends its response back to the web server, which sends everything back to the client. 
+Dynamic websites, on the other hand, use something called "server-side processing." These sites are what we call "web applications." They have a higher level of interactivity than a static site and the HTML is generated dynamically, meaning the web page elements are created by the application server and sent to the browser. In very simplified terms, server-side processing involves a middle person in the file transfer process known as the application server. This time, the client (your browser) sends a request to the web server, but instead of the web server sending its response directly back to the client and the client doing all the work, it dispatches the request to the application server. The application server will probably add an extra step of requesting data from a database, then send its response back to the web server, which sends everything back to the client. 
 
-I'm not advocating for everyone to throw away dynamic web pages and go back to static websites. There is a time and a place for both. Dynamic websites are useful when you're dealing with data, such as an ecommerce site or using a content management system like WordPress. In my case, there was no need for a dynamic site. This is just a website made up of a bunch of simple static pages, which didn't take long to build because GatsbyJS has great docs (and I didn't get paid to say that).
+I'm not advocating for everyone to throw away dynamic web pages and go back to static websites. There is a time and a place for both. Dynamic websites are useful when you're dealing with data, such as an eCommerce site or using a content management system like WordPress. In my case, there was no need for a dynamic site. This is just a website made up of a bunch of simple static pages, which didn't take long to build because GatsbyJS has great docs (and I didn't get paid to say that).
 
 <h3>Simplified design</h3>
 
@@ -58,7 +58,7 @@ Images are one of the biggest contributing factors to the amount of data transfe
 
 <h3>Implemented "lazy-loading" on images</h3>
 
-Lazy loading is a term used to describe delaying initialization of resources such as images. Basically, lazy loading images reduces the time it takes a web page to load, as well as reducing its page weight because it means the images will only be loaded if the user needs them. 
+Lazy loading is a term used to describe delaying the initialization of resources such as images. Basically, lazy loading images reduces the time it takes a web page to load, as well as reducing its page weight because it means the images will only be loaded if the user needs them. 
 
 <h3>Optimized images</h3>
 
@@ -70,7 +70,7 @@ I reduced the need for JS as much as possible, which improves processing time.
 
 <h3>Content Delivery Networks (CDN)</h3>
 
-Remember when I mentioned earlier that the distance between the browser and server matters? The further apart the two are, the slower your site will be and the more power is consumed transferring your site's files. CDN's offer a really cool solution to that. CDN's deliver content through its own network of global servers. It works by caching a copy of your site's files on multiple servers around the world, so when a user visits your site, these files are served to their browser from the nearest server. 
+Remember when I mentioned earlier that the distance between the browser and server matters? The further apart the two are, the slower your site will be and the more power is consumed transferring your site's files. CDN's offer a really cool solution to that. CDN's deliver content through their own network of global servers. It works by caching a copy of your site's files on multiple servers around the world, so when a user visits your site, these files are served to their browser from the nearest server. 
 
 <h3>Search Engine Optimization (SEO)</h3>
 
@@ -78,9 +78,9 @@ Aside from page size, another factor that comes into play when talking about a w
 
 <h3>Final Thoughts</h3>
 
-Whether you have a Wordpress blog, an ecommerce site, or a company page, what can you do to reduce that page weight? Can you simplify your UI to reduce the need for so many custom fonts and images? How can you improve SEO to make it easier for users to find what they need, improving both user experience and environmental impact? The more we embed these values into what we build for the web, the closer we will be to creating a more sustainable web for the future. 
+Whether you have a Wordpress blog, an eCommerce site, or a company page, what can you do to reduce that page weight? Can you simplify your UI to reduce the need for so many custom fonts and images? How can you improve SEO to make it easier for users to find what they need, improving both user experience and environmental impact? The more we embed these values into what we build for the web, the closer we will be to creating a more sustainable web for the future. 
 
-If you're interested in taking a look at the code behind this site, checkout my <a href="https://github.com/dsubject/my-gatsby-blog" target="_blank">public repo</a> on Github.
+If you're interested in taking a look at the code behind this site, check out my <a href="https://github.com/dsubject/my-gatsby-blog" target="_blank">public repo</a> on Github.
         
 
 
