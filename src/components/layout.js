@@ -4,13 +4,12 @@ import Footer from "../components/footer"
 
 const pageStyles = {
   color: 'rgba(255, 255, 255, 0.88)',
-  margin: 96,  
+  padding: 96,
+  marginLeft: 'auto',
+  marginRight: 'auto',  
   fontFamily: "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
   fontSize: "1.125rem",
-  //maxWidth: '42rem'
-  display: 'flex',
-  flexDirection: 'column',
-  flex: '2 1 auto'
+  maxWidth: '42rem'
 }
 
 const Layout = ({ children }) => {
