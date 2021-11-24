@@ -8,6 +8,8 @@ I built this site to be as minimal as possible — the smaller the web page, the
 
 Thanks to the minimalist design of this site, my homepage releases only <a href="https://www.websitecarbon.com/website/daniellesubject-com/" target="_blank">0.04g of CO2 per page</a> visit — that's a difference of 206.2 kg annually compared to the average website.
 
+I didn't write this post to tell you how to build a site. I'm not asking you to build an HTML-looking web page from the 90s either (although nostalgia is hot nowadays). My goal is to <b>encourage others to think about the long term impact of short term choices</b>. 
+
 Before I get into the nitty gritty of how I did this, let's talk about what happens when you type in a URL and hit "enter".
 
 A web page is built using HTML, CSS and usually some JavaScript. HTML is a markup language, meaning it is the reason you see pieces of information displayed on a web page. For example, images, paragraph text, titles, and other pieces of a page are displayed using HTML. The HTML is also responsible for telling search engines and browsers what is on a page. For example: 
@@ -72,7 +74,7 @@ Aside from page size, another factor that comes into play when talking about a w
 
 <h3>Final Thoughts</h3>
 
-I didn't write this post to tell you how to build a site. I'm not asking you to build an HTML-looking web page from the 90s either (although nostalgia is hot nowadays). My goal is to <b>encourage others to think about the long term impact of short term choices</b>. Whether you have a Wordpress blog, an ecommerce site, or a company page, what can you do to reduce that page weight? Can you simplify your UI to reduce the need for so many custom fonts and images? How can you improve SEO to make it easier for users to find what they need, improving both user experience and environmental impact? The more we embed these values into what we build for the web, the closer we will be to creating a more sustainable web for the future. 
+Whether you have a Wordpress blog, an ecommerce site, or a company page, what can you do to reduce that page weight? Can you simplify your UI to reduce the need for so many custom fonts and images? How can you improve SEO to make it easier for users to find what they need, improving both user experience and environmental impact? The more we embed these values into what we build for the web, the closer we will be to creating a more sustainable web for the future. 
         
 
 
