@@ -10,7 +10,7 @@ Thanks to the minimalist design of this site, my homepage releases only <a href=
 
 I didn't write this post to tell you how to build a site. I'm not asking you to build an HTML-looking web page from the 90s either (although nostalgia is hot nowadays). My goal is to <b>encourage others to think about the long term impact of short term choices</b>. 
 
-Before I get into the nitty gritty of how I did this, let's talk about what happens when you type in a URL and hit "enter".
+Before I get into the nitty gritty of how this site came to be, let's talk about what happens when you type in a URL and hit "enter".
 
 A web page is built using HTML, CSS and usually some JavaScript. HTML is a markup language, meaning it is the reason you see pieces of information displayed on a web page. For example, images, paragraph text, titles, and other pieces of a page are displayed using HTML. The HTML is also responsible for telling search engines and browsers what is on a page. For example: 
 <code>< img src="./fakeimagepath" alt="dog running with a stick" /></code> 
@@ -20,13 +20,13 @@ CSS adds the styling. All of the colours and pretty effects you see are the resu
 
 JavaScript allows us to interact with a web page. It adds functionality to otherwise static elements.
 
-To tie all of this together, think of a "submit" button. That button exists because HTML told it to with a <code>< button ></code> tag that has an attribute <code>title="submit"</code>. If we kept it in its original HTML form, it'd look like this: <button>Submit</button>, which is quite boring. So we add some colour to the button and maybe some fancy shading thanks to CSS styling. Finally, the button works thanks to JavaScript, which tells it to do something on submit.
+To tie all of this together, think of a "submit" button. That button exists because HTML told it to with a <code>< button ></code> tag that has an attribute <code>title="submit"</code>. If we kept it in its original HTML form, it'd look like this: <button>Submit</button>, which is quite boring. So we add some colour to the button and maybe some fancy shading thanks to CSS styling. Finally, the button works thanks to JavaScript, which tells it to do something when clicked.
 
 Okay, so what?
 
-Well, when you type in a url and hit "enter," all of those files that contain the HTML, CSS, and JS code are delivered from a server to your browser, which transcribes them. Every time these files are sent between the server and the browser, energy is consumed. 
+Well, when you type in a url and hit "enter," all of those files that contain the HTML, CSS, and JS code are delivered from a server to your browser. Every time these files are sent between the server and the browser, energy is consumed. 
 
-Distance matters too. The further the files have to transfer (let's say the server is in Austalia and the web page is being loaded in Canada) the more energy is consumed. 
+Distance matters too. The further the files have to transfer (let's say the server is in Australia and the web page is being loaded in Canada) the more energy is consumed. 
 
 Browsers already do a few things to lighten the load. One is called "caching." Browsers remember content that has been downloaded so it's not downloaded all over again. An example of this is the header of a webpage that's repeated across the site. Instead of fetching the header's logo in every page load, the browser downloads it once and remembers it. 
 
@@ -38,11 +38,11 @@ Now you understand how a web page is generated — let's dive into how this site
 
 This site was built with GatsbyJS, which is a static site generator built in React. 
 
-What does that mean? <b>Let's go back to the explanation of a web page I gave you earlier in this post</b>. A browser is served html, css, and javascript files that are used to build what you're looking at. This is the definition of how a static website is generated, also known as "client-side processing." The browser (aka the client) makes a request to the web server for info, and is sent back files that tell it how to render the web page. The pages are pre-rendered and most of the content is cached. 
+What does that mean? <b>Let's go back to the explanation of a web page I gave you earlier in this post</b>. A browser is served html, css, and javascript files that are used to build what you're looking at. For static web pages, the browser transcribes these files and builds the elements of the web page. This is also known as "client-side processing" --> the "client" being your browser. The browser makes a request to the web server for info, and is sent back files that tell it how to render the web page. The pages are pre-rendered and most of the content is cached. 
 
-Dynamic websites, on the other hand, use something called "server-side processing." These sites are what we call "web applications." They have a higher level of interactivity than a static site. In very simplified terms, server-side processing involves a middle person in the file transfer process commonly referred to as the application server. This time, the client (your browser) sends a request to the web server, but instead of the web server sending its response directly back to the client, it dispatches the request to the application server. The application server will probably add an extra step of requesting data from a database, then sends its response back to the web server, which sends everything back to the client. In this case, the HTML file was dynamically loaded because it was built by the application server instead of the web server. 
+Dynamic websites, on the other hand, use something called "server-side processing." These sites are what we call "web applications." They have a higher level of interactivity than a static site and the HTML is generated dynamically, meaning the web page elements are created by the application server and sent to the browser. In very simplified terms, server-side processing involves a middle person in the file transfer process known as the application server. This time, the client (your browser) sends a request to the web server, but instead of the web server sending its response directly back to the client and the client doing all the work, it dispatches the request to the application server. The application server will probably add an extra step of requesting data from a database, then sends its response back to the web server, which sends everything back to the client. 
 
-I'm not advocating for everyone to throw away dynamic web building and go back to static websites. There is a time and a place for both. Dynamic websites are useful when you're dealing with data, such as an ecommerce site or using a content management system like WordPress. In my case, there was no need for a dynamic site. This is just a website made up of a bunch of simple static pages, which didn't take long to build because GatsbyJS has great docs (and I didn't get paid to say that).
+I'm not advocating for everyone to throw away dynamic web pages and go back to static websites. There is a time and a place for both. Dynamic websites are useful when you're dealing with data, such as an ecommerce site or using a content management system like WordPress. In my case, there was no need for a dynamic site. This is just a website made up of a bunch of simple static pages, which didn't take long to build because GatsbyJS has great docs (and I didn't get paid to say that).
 
 <h3>Simplified design</h3>
 
