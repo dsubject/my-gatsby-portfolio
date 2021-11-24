@@ -14,7 +14,7 @@ const pageStyles = {
 
 const Layout = ({ children }) => {
     return (
-        <main style={pageStyles}>
+        <main className="main-container" style={pageStyles}>
             <Helmet>
                 <title>Dani Subject</title>
             </Helmet>
