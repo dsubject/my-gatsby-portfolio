@@ -10,7 +10,9 @@ Thanks to the minimalist design of this site, my homepage releases only <a href=
 
 Before I get into the nitty gritty of how I did this, let's talk about what happens when you type in a URL and hit "enter".
 
-A web page is built using HTML, CSS and usually some JavaScript. HTML is a markup language, meaning it is the reason you see pieces of information displayed on a web page. For example, images, paragraph text, titles, and other pieces of a page are displayed using HTML. The HTML is also responsible for telling search engines and browsers what is on a page. For example: <pre><code>< img src="./fakeimagepath" alt="dog running with a stick" /></code></pre> This code snippet tells the browser there's an image with some alt text, now display it. It's the skeletal makeup of a web page. 
+A web page is built using HTML, CSS and usually some JavaScript. HTML is a markup language, meaning it is the reason you see pieces of information displayed on a web page. For example, images, paragraph text, titles, and other pieces of a page are displayed using HTML. The HTML is also responsible for telling search engines and browsers what is on a page. For example: 
+<code>< img src="./fakeimagepath" alt="dog running with a stick" /></code> 
+This code snippet tells the browser there's an image with some alt text, now display it. It's the skeletal makeup of a web page. 
 
 CSS adds the styling. All of the colours and pretty effects you see are the result of CSS styling. It's the visual features of a webpage. 
 
