@@ -8,7 +8,7 @@ I built this site to be as minimal as possible — the smaller the web page, the
 
 Thanks to the minimalist design of this site, my homepage releases only <a href="https://www.websitecarbon.com/website/daniellesubject-com/" target="_blank">0.05g of CO2 per page</a> visit — significantly less than the average web page.
 
-I didn't write this post to tell you how to build a site. I'm not asking you to build an HTML-looking web page from the 90s either (although nostalgia is hot nowadays). My goal is to <b>encourage others to think about the long term impact of short term choices</b>. 
+I didn't write this post to tell you how to build a site. I'm not asking you to build an HTML-looking web page from the 90s either (although nostalgia is hot nowadays). My goal is to <b>encourage others to think about the long-term impact of short-term choices</b>. 
 
 Before I get into the nitty gritty of how this site came to be, let's talk about what happens when you type in a URL and hit "enter".
 
