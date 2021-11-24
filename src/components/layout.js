@@ -10,6 +10,7 @@ const pageStyles = {
   marginRight: 'auto',
   marginLeft: 'auto',
   fontFamily: "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+  fontSize: "1.125rem"
 }
 
 const Layout = ({ children }) => {
