@@ -57,7 +57,7 @@ const IndexPage = () => {
         </span>
       </h1>
       <p style={paragraphStyles}>
-        Hi! I'm Danielle, but you can call me Dani. I'm a software developer, writer, and beekeeper (yup, you read that right) based out of Toronto. Welcome to my low-carbon website. 
+        Hi! I'm Danielle, but you can call me Dani. I'm a software developer with a special interest in creating a greener web. Welcome to my low-carbon website. 
       </p>
       <ul style={listStyles}>
         {links.map(link => (
