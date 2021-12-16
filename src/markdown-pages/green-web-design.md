@@ -82,6 +82,3 @@ Whether you have a Wordpress blog, an eCommerce site, or a company page, what ca
 
 If you're interested in taking a look at the code behind this site, check out my <a href="https://github.com/dsubject/my-gatsby-blog" target="_blank">public repo</a> on Github.
         
-
-
-
