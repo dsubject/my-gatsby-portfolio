@@ -18,7 +18,6 @@ const Layout = ({ children, title }) => {
             <Helmet 
                 defaultTitle="Danielle Subject" 
                 title={title}>
-                <script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script>
             </Helmet>
             {children}
             <Footer />
