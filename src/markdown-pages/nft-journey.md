@@ -48,7 +48,7 @@ Enter NFTs. Based on what you just read above, it should come as no surprise tha
 
 <h3>Accessible Art</h3>
 
-The physical art world lacks accessibility. Art is expensive, it's dominated by rich people, and it's not easy for artists to break into, especially marginalized artists. The NFT space is a gamechanger in this capacity. Decentralized tech is aimed to create opportunities for those who otherwise wouldn't have any because of societal barriers. I'm going off on a tangent now, but I'll definitely continue this point in another post where I talk about the potential for empowerment behind Web 3.0.
+The physical art world lacks accessibility. Art is expensive, it's dominated by the upper class, and it's not easy for artists to break into, especially marginalized artists. The NFT space is a gamechanger in this capacity. Decentralized tech is aimed to create opportunities for those who otherwise wouldn't have any because of societal barriers. I'm going off on a tangent now, but I'll definitely continue this point in another post where I talk about the potential for empowerment behind Web 3.0.
 
 It's been a long winter. February is the worst time of the year for me mentally, and I know that I'm not alone in that. My heart goes out to those in the same boat. 
 
