@@ -54,6 +54,3 @@ It's been a long winter. February is the worst time of the year for me mentally,
 Getting into NFTs has not only been a huge step up for me financially, but it's also provided me with a sense of community that I've been missing over the last two years of being mostly locked in my house. I've been working from home full-time since the beginning of the pandemic, and though there have been sporatic bursts of freedom in the summer months, for the most part it has just been me and the four walls of my apartment. I am so grateful for the friends that I've made so far and the confidence I have gained learning to buy and trade. 
 
 If you're interested in following my NFT journey, check out my new dedicated Twitter <a href="https://twitter.com/nft_danigirl" target="_blank">@nft_danigirl</a>
-
-
-

@@ -23,7 +23,7 @@ export default function HTML(props) {
         {props.postBodyComponents}
 
         <div id="wcb" className="carbonbadge wcb-d"></div>
-        <script src="https://unpkg.com/website-carbon-badges@1.1.2/b.min.js" defer></script>
+        <script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script>
       </body>
     </html>
   )
