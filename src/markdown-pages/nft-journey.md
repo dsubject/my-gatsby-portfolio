@@ -16,17 +16,17 @@ What is an NFT?
 
 Before I answer this, think about a real-life art auction. Art — sculptures, paintings, etc — is sold and each item comes with a certificate of authenticity. This certificate proves that you are now the owner of that piece of art. 
 
-An NFT is a non-fungible token. This means it cannot be replaced because it has a unique token id. It is a digital asset that typically represents a collectible such as art, games, music, or even poetry. Each asset comes with a unique token which acts as a certificate of authenticity. This token is created by and exists in the blockchain.
+An NFT is a non-fungible token. This means it cannot be replaced because it has a unique token id. It is a digital asset that typically represents a collectible such as art, games, music, or even poetry. Each asset comes with a unique token that acts as a certificate of authenticity. This token is created by and exists in the blockchain.
 
-Most NFTs exist on Ethereum's blockchain, which is one of the most popular cryptocurrencies. A blockchain in itself is an immutable public ledger that faciltates recording transactions and tracking assets (<a href="https://www.ibm.com/topics/what-is-blockchain" target="_blank">IBM</a>). 
+Most NFTs exist on Ethereum's blockchain, which is one of the most popular cryptocurrencies. A blockchain in itself is an immutable public ledger that facilitates recording transactions and tracking assets (<a href="https://www.ibm.com/topics/what-is-blockchain" target="_blank">IBM</a>). 
 
 The unique data that comes with an NFT makes it easy to verify ownership. 
 
 However, NFTs can be very volatile. In the same way that humans set value to art, an NFT's worth is primarily set by the market and demand. Some projects excel, and some are duds. 
 
-<a href="https://opensea.io/collection/world-of-women-nft" target="_blank">World of Women</a> is an example of a great NFT success story. With a floor price of 9.35 ETH (roughly 37,203 CAD) it is a solid example of a project that took off and increased in value over time, largely due to a strong community of supporters and the value it brought to representing women in the NFT space.
+<a href="https://opensea.io/collection/world-of-women-nft" target="_blank">World of Women</a> is an example of a great NFT success story. With a floor price of 9.35 ETH (roughly 37,203 CAD), it is a solid example of a project that took off and increased in value over time, largely due to a strong community of supporters and the value it brought to representing women in the NFT space.
 
-After 50 hours of research, I purchased by first NFT in January 2022 from a project called <a href="https://opensea.io/collection/encryptas-1" target="_blank">Encryptas</a>. I chose this project because I liked what it stood for: empowering women in tech and promoting body positivity. They also donate to organizations such as the Malala Fund. 
+After 50 hours of research, I purchased my first NFT in January 2022 from a project called <a href="https://opensea.io/collection/encryptas-1" target="_blank">Encryptas</a>. I chose this project because I liked what it stood for: empowering women in tech and promoting body positivity. They also donate to organizations such as the Malala Fund. 
 
 ![Blue Encrypta NFT](./Optimized-Encryptas.png "My first ever NFT, Encryptas #3713")
 
@@ -39,7 +39,7 @@ In terms of beautiful artwork, my favourite piece to date has been one collected
 <div style="text-align: center">- - -</div>
 <h3>Financial Empowerment</h3>
 
-There is a lot of content out there regarding NFTs and financial empowerment. My whole life I have been extremely self-consious about my lack of financial knowledge. I always knew how to save money, but when it came to investing I have always shied away. I blame this on the boys club that tends to plague places like financial institutions (and also the fact that the school system barely covers it in their curriculum). Because I'm a woman — short, blonde, and not exactly "assertive" — I've always been intensely aware of the treatment I receive in places like banks and automotive shops (the latter being my least favourite place to ever go). I've learned not to trust men in these places, because I've experienced firsthand salesmen attempting to rip me off or patronize me because they assume I don't know what I'm talking about, and I can only assume it is because I'm a woman. 
+There is a lot of content out there regarding NFTs and financial empowerment. My whole life I have been extremely self-conscious about my lack of financial knowledge. I always knew how to save money, but when it came to investing I have always shied away. I blame this on the boys club that tends to plague places like financial institutions (and also the fact that the school system barely covers it in their curriculum). Because I'm a woman — short, blonde, and not exactly "assertive" — I've always been intensely aware of the treatment I receive in places like banks and automotive shops (the latter being my least favourite place to ever go). I've learned not to trust men in these places because I've experienced firsthand salesmen attempting to rip me off or patronize me because they assume I don't know what I'm talking about, and I can only assume it is because I'm a woman. 
 
 Enter NFTs. Based on what you just read above, it should come as no surprise that I naturally gravitated towards women-led projects. Suddenly I found myself in a space where no question is a dumb question, and everyone wants to empower each other to be successful. Thanks to this experience, I've recently opened my very first stock portfolio and was confident enough to make educated decisions on where to invest my money, without having to walk into a bank and worry if the person sitting across from me is taking advantage of my lack of knowledge and experience. 
 
@@ -51,6 +51,6 @@ The physical art world lacks accessibility. Art is expensive, it's dominated by 
 
 It's been a long winter. February is the worst time of the year for me mentally, and I know that I'm not alone in that. My heart goes out to those in the same boat. 
 
-Getting into NFTs has not only been a huge step up for me financially, but it's also provided me with a sense of community that I've been missing over the last two years of being mostly locked in my house. I've been working from home full-time since the beginning of the pandemic, and though there have been sporatic bursts of freedom in the summer months, for the most part it has just been me and the four walls of my apartment. I am so grateful for the friends that I've made so far and the confidence I have gained learning to buy and trade. 
+Getting into NFTs has not only been a huge step up for me financially but it's also provided me with a sense of community that I've been missing over the last two years of being mostly locked in my house. I've been working from home full-time since the beginning of the pandemic, and though there have been sporadic bursts of freedom in the summer months, for the most part, it has just been me and the four walls of my apartment. I am so grateful for the friends that I've made so far and the confidence I have gained learning to buy and trade. 
 
 If you're interested in following my NFT journey, check out my new dedicated Twitter <a href="https://twitter.com/nft_danigirl" target="_blank">@nft_danigirl</a>
