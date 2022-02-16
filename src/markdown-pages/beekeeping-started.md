@@ -4,6 +4,7 @@ date: "2020-05-12"
 title: "How I started keeping bees — and how you can too! 🐝 "
 featuredImage: daniBeekeeper.png
 featuredImgAlt: "The author kneeling next to one of her hives"
+tags: ["beekeeping", "environment"]
 ---
 I never wanted to become a beekeeper; it just wasn’t a profession I had ever considered. I even went to a university with one of the best beekeeping programs in the country and didn’t take a single class. To me, being a beekeeper was reserved for men my grandpa’s age who lived in the country. I grew up in the GTA (Greater Toronto Area), and as far as I knew, there were no hives in the suburbs. 
 

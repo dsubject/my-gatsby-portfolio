@@ -54,6 +54,11 @@ const links = [
   },
   {
     text: "Geek'D-Out!",
+    url: "https://indie88.com/author/danielles/",
+    color: "#1099A8"
+  },
+  {
+    text: "Indie88 FM",
     url: "https://geekd-out.com/author/dsubject/",
     color: "#1099A8"
   },
@@ -80,6 +85,7 @@ const Publications = ({
             From the{" "}
             <span style={headingAccentStyles}>[Archives]</span>
         </h1>
+        <p>Before I became a software developer, I was a writer. Below is a list of publications I once wrote for — everything from album and concert reviews to interviews with local artists.</p>
         <ul style={listStyles}>
             {links.map(link => (
             <li key={link.url} style={{ ...listItemStyles }}>
