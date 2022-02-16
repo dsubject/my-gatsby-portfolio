@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: "My Gatsby Blog",
+    title: "My Gatsby Portfolio",
         menuLinks:[
       {
         name: 'home',
@@ -10,13 +10,6 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `markdown-pages`,
-        path: `${__dirname}/src/markdown-pages`,
-      },
-    },
     {
       resolve: `gatsby-transformer-remark`,
       options: {

@@ -14,7 +14,7 @@ const Footer = () => {
       <a href='https://www.linkedin.com/in/danielle-subject/' target='_blank'>
         <img src={LinkedInIcon} alt='linkedin icon' />
       </a>{' '}
-      <a href='https://github.com/dsubject/my-gatsby-blog' target='_blank'>
+      <a href='https://github.com/dsubject/my-gatsby-portfolio' target='_blank'>
         <img src={GithubIcon} alt='github icon' />
       </a>
     </div>
