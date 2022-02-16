@@ -34,7 +34,7 @@ const linkStyle = {
 const links = [
   {
     text: "Blog",
-    url: "https://daniellesubject.com/blog",
+    url: "https://changingthesubject.ca",
     color: "#8954A8"
   },
   {
