@@ -1,10 +1,10 @@
 import * as React from 'react'
+import { Link } from "gatsby"
 import Layout from '../components/layout'
 import resume from '../assets/danielle_subject_CV.pdf'
 
 // styles
 const headingStyles = {
-  marginTop: 0,
   marginBottom: 64,
   maxWidth: 320
 }
