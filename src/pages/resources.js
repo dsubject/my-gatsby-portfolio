@@ -80,7 +80,7 @@ const Resources = () => {
         <span style={headingAccentStyles}>[Green Software Links]</span>
       </h1>
       <p>
-        If you're interested in learning more about green software, I've put together a list of websites and articles below.
+        Here's a list I've compiled of some of my favourite websites and articles regarding green tech.
       </p>
       <ul style={listStyles}>
         {links.map(link => (
