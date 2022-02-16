@@ -26,31 +26,27 @@ const listItemStyles = {
   listStyleType: 'none'
 }
 
-const linkStyle = {
-  verticalAlign: '5%'
-}
-
 // data
 const links = [
   {
     text: 'Resume',
     url: 'https://daniellesubject.com/resume',
-    color: '#8954A8'
+    color: '#DDB8FF'
   },
   {
     text: 'Blog',
     url: 'https://changingthesubject.ca',
-    color: '#8954A8'
+    color: '#DDB8FF'
   },
   {
-    text: 'Green Software Resources',
+    text: 'Green Software',
     url: 'https://daniellesubject.com/resources',
-    color: '#1099A8'
+    color: '#78E56C'
   },
   {
     text: 'From the Archives',
     url: 'https://daniellesubject.com/archives',
-    color: '#1099A8'
+    color: '#DDB8FF'
   }
 ]
 
@@ -79,7 +75,7 @@ const IndexPage = () => {
             <span>
               [{' '}
               <Link
-                style={linkStyle}
+                style={{ verticalAlign: '5%', color: link.color }}
                 to={`${link.url}?utm_source=starter&utm_medium=start-page&utm_campaign=minimal-starter`}
               >
                 {link.text}

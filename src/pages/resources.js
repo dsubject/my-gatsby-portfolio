@@ -80,9 +80,7 @@ const Resources = () => {
         <span style={headingAccentStyles}>[Green Software Links]</span>
       </h1>
       <p>
-        Before I became a software developer, I was a writer. Below is a list of
-        publications I once wrote for — everything from album and concert
-        reviews to interviews with local artists.
+        If you're interested in learning more about green software, I've put together a list of websites and articles below.
       </p>
       <ul style={listStyles}>
         {links.map(link => (
