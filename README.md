@@ -2,7 +2,7 @@
   My Low-Carbon Website
 </h1>
 
-## Welcome to my site
+## Changing the world one sustainable website at a time
 
 This website was built to be as small as possible. Each page visit produces [0.04g of CO2](https://www.websitecarbon.com/website/daniellesubject-com/), compared to the website average of 1.76 grams of CO2 per page visit. You can read more about the process behind building this blog [here](https://daniellesubject.com/blog/green-web-design).
 
