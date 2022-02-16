@@ -33,6 +33,11 @@ const linkStyle = {
 // data
 const links = [
   {
+    text: "Resume",
+    url: "https://daniellesubject.com/resume",
+    color: "#8954A8"
+  },
+  {
     text: "Blog",
     url: "https://changingthesubject.ca",
     color: "#8954A8"
@@ -59,7 +64,7 @@ const IndexPage = () => {
       <p style={paragraphStyles}>
         Hi! I'm Danielle, but you can call me Dani. I'm a software developer with a special interest in creating a greener web. Welcome to my low-carbon website. 
       </p>
-      <p>This site was built using GatsbyJS and is hosted by Netlify. View the code <a href="https://github.com/dsubject/my-gatsby-blog" target="_blank" >here</a>.</p>
+      <p>This site was built using GatsbyJS and is hosted by Netlify.</p>
       <ul style={listStyles}>
         {links.map(link => (
           <li key={link.url} style={{ ...listItemStyles }}>
