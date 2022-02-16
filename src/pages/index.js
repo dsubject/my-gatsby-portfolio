@@ -52,7 +52,7 @@ const links = [
 // markup
 const IndexPage = () => {
   return (
-    <Layout>
+    <Layout title="Danielle Subject: Home">
       <h1 style={headingStyles}>
         Dani Subject
         <br />
