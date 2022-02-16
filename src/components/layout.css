@@ -1,42 +1,41 @@
 body {
-    background-color: #282C35;
+  background-color: #282c35;
 }
 
-body a{
-    color: #DDB8FF;
+body a {
+  color: #ddb8ff;
 }
 
 .blog-post-content p {
-    margin-bottom: 1.75rem;
+  margin-bottom: 1.75rem;
 }
 
 .blog-post-content a {
-    color: #ffa7c4;
+  color: #ffa7c4;
 }
 
 a:hover {
-    color: white;
+  color: white;
 }
 
 code {
-    background-color: rgba(115,124,153,0.2);
+  background-color: rgba(115, 124, 153, 0.2);
 }
 
 @media screen and (max-width: 450px) {
-    .main-container {
-        padding: 2rem !important;
-    }
+  .main-container {
+    padding: 2rem !important;
+  }
 }
 
 #wcb.wcb-d #wcb_a {
-    background: #282C35 !important;
-    color: #FFFFFF !important;
-    border-color: #DDB8FF !important;
-
+  background: #282c35 !important;
+  color: #ffffff !important;
+  border-color: #ddb8ff !important;
 }
 
 #wcb #wcb_g {
-    background: #282C35 !important;
-    color: #FFFFFF !important;
-    border-color: #DDB8FF !important;
+  background: #282c35 !important;
+  color: #ffffff !important;
+  border-color: #ddb8ff !important;
 }
