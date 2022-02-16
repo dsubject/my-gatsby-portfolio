@@ -107,6 +107,10 @@ const ResumePage = () => {
         <li>Led code-along demonstrations for students</li>
         <li>Provided one-on-one mentoring to students</li>
       </ul>
+      
+      <h4>CONTACT</h4>
+
+      <p>Get in touch: daniellesubject@gmail.com or reach out via <a href="https://www.linkedin.com/in/danielle-subject/">LinkedIn</a></p>
     </Layout>
   )
 }
