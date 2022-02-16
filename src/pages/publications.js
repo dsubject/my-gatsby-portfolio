@@ -1,7 +1,5 @@
 import React from "react"
-import { graphql, Link } from "gatsby"
-import PostLink from "../components/post-link"
-import { Helmet } from "react-helmet"
+import { Link } from "gatsby"
 import Layout from "../components/layout"
 
 import "../components/layout.css"
@@ -12,10 +10,6 @@ const headingStyles = {
 
 const headingAccentStyles = {
   color: "#DDB8FF",
-}
-
-const paragraphStyles = {
-  marginBottom: 48,
 }
 
 const listStyles = {
@@ -34,10 +28,6 @@ const linkStyle = {
   fontWeight: "bold",
   fontSize: 16,
   verticalAlign: "5%"
-}
-
-const navLinkStyle = {
-    paddingBottom: 50
 }
 
 // list
@@ -69,14 +59,7 @@ const links = [
   },
 ]
 
-const Publications = ({
-  data: {
-    allMarkdownRemark: { edges },
-  },
-}) => {
-  const Posts = edges
-    .filter(edge => !!edge.node.frontmatter.date) // You can filter your posts based on some criteria
-    .map(edge => <PostLink key={edge.node.id} post={edge.node} />)
+const Publications = () => {
 
   return (
     <Layout>
@@ -106,21 +89,3 @@ const Publications = ({
 }
 
 export default Publications
-
-export const pageQuery = graphql`
-  query {
-    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
-      edges {
-        node {
-          id
-          excerpt(pruneLength: 150)
-          frontmatter {
-            date(formatString: "MMMM DD, YYYY")
-            slug
-            title
-          }
-        }
-      }
-    }
-  }
-`
