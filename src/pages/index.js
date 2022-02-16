@@ -43,8 +43,13 @@ const links = [
     color: '#8954A8'
   },
   {
-    text: 'Publications',
-    url: 'https://daniellesubject.com/publications',
+    text: 'Green Software Resources',
+    url: 'https://daniellesubject.com/resources',
+    color: '#1099A8'
+  },
+  {
+    text: 'From the Archives',
+    url: 'https://daniellesubject.com/archives',
     color: '#1099A8'
   }
 ]
