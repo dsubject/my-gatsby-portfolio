@@ -62,7 +62,7 @@ const links = [
 const Publications = () => {
 
   return (
-    <Layout>
+    <Layout title="Danielle Subject: Archives">
         <Link to="/">home</Link>
         <h1 style={headingStyles}>
             From the{" "}
