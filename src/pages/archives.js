@@ -59,7 +59,7 @@ const links = [
   },
 ]
 
-const Publications = () => {
+const Archives = () => {
 
   return (
     <Layout title="Danielle Subject: Archives">
@@ -88,4 +88,4 @@ const Publications = () => {
   )
 }
 
-export default Publications
+export default Archives
