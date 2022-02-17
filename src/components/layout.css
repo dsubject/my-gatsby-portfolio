@@ -28,6 +28,10 @@ code {
   }
 }
 
+#wcb_p {
+  padding-bottom: 10px !important;
+}
+
 #wcb.wcb-d #wcb_a {
   background: #282c35 !important;
   color: #ffffff !important;
