@@ -2,7 +2,6 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Helmet } from 'react-helmet'
 import { useStaticQuery, graphql } from 'gatsby'
-import metaImage from '../assets/encryptas.png';
 
 function SEO ({ description, lang, meta, image: metaImage, title, pathname }) {
   const { site } = useStaticQuery(
@@ -24,9 +23,14 @@ function SEO ({ description, lang, meta, image: metaImage, title, pathname }) {
 
   const metaDescription = description || site.siteMetadata.description
   const image =
-    metaImage && metaImage.src
-      ? `${site.siteMetadata.siteUrl}${metaImage.src}`
+    metaImage
+      ? `${site.siteMetadata.siteUrl}${metaImage}`
       : null
+
+      // console.log('metaImage', metaImage.toString())
+
+      // console.log('metaImage', metaImage.src.toString())
+
 
   /* canonical link is a hint to a search engine that this is the source* for this content - it helps
 resolve duplicate content issues  */
@@ -57,7 +61,7 @@ resolve duplicate content issues  */
         },
         {
           name: 'keywords',
-          content: site.siteMetadata.keywords
+          content: site.siteMetadata.keywords.join('')
         },
         {
           property: `og:title`,

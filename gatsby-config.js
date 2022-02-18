@@ -10,9 +10,9 @@ module.exports = {
     description: "Danielle Subject's portfolio",
     siteUrl: 'https://www.daniellesubject.com',
     twitterUsername: '@danisubject',
-    image: './assets/encryptas.png',
+    image: '/encryptas.png',
     author: 'Danielle Subject',
-    keywords: `green software, green tech, mental health, beekeeping`
+    keywords: ['green software', 'green tech', 'software developer', 'beekeeping']
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
