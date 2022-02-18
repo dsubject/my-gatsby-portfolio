@@ -74,7 +74,11 @@ const links = [
 
 const Resources = () => {
   return (
-    <Layout title='Danielle Subject: Green Resources'>
+    <Layout 
+      title='Danielle Subject: Green Software'
+      desc='A collection of green software resources'
+      image='/websiteBanner.png'
+      >
       <Link to='/'>home</Link>
       <h1 style={headingStyles}>
         <span style={headingAccentStyles}>[Green Software Links]</span>
