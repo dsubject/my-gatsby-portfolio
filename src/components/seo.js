@@ -27,11 +27,6 @@ function SEO ({ description, lang, meta, image: metaImage, title, pathname }) {
       ? `${site.siteMetadata.siteUrl}${metaImage}`
       : null
 
-      // console.log('metaImage', metaImage.toString())
-
-      // console.log('metaImage', metaImage.src.toString())
-
-
   /* canonical link is a hint to a search engine that this is the source* for this content - it helps
 resolve duplicate content issues  */
 

@@ -29,11 +29,6 @@ const listItemStyles = {
 // data
 const links = [
   {
-    text: 'Resume',
-    url: 'https://daniellesubject.com/resume',
-    color: '#DDB8FF'
-  },
-  {
     text: 'Blog',
     url: 'https://changingthesubject.ca',
     color: '#DDB8FF'
@@ -41,7 +36,14 @@ const links = [
   {
     text: 'Green Software',
     url: 'https://daniellesubject.com/resources',
-    color: '#78E56C'
+    color: '#DDB8FF',
+    icon: '🌱',
+    alt: 'seedling emoji'
+  },
+  {
+    text: 'Resumé',
+    url: 'https://daniellesubject.com/resume',
+    color: '#DDB8FF'
   },
   {
     text: 'From the Archives',
@@ -53,7 +55,7 @@ const links = [
 // markup
 const IndexPage = () => {
   return (
-    <Layout title="Danielle Subject: Home" image="../assets/encryptas.png">
+    <Layout title='Danielle Subject: Home' image='/homeBanner.png'>
       <h1 style={headingStyles}>
         Dani Subject
         <br />
@@ -79,7 +81,14 @@ const IndexPage = () => {
                 to={`${link.url}?utm_source=starter&utm_medium=start-page&utm_campaign=minimal-starter`}
               >
                 {link.text}
-              </Link>{' '}
+              </Link>
+              {link.icon ? (
+                <span role='img' aria-label={link.alt}>
+                  {' ' + link.icon}
+                </span>
+              ) : (
+                ' '
+              )}
               ]
             </span>
           </li>
