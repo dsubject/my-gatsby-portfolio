@@ -189,7 +189,7 @@ const Resources = () => {
                 style={linkStyle}
                 to={`${link.url}?utm_source=starter&utm_medium=start-page&utm_campaign=minimal-starter`}
               >
-                {link.text}
+                {link.url}
               </Link>
             </span>
           </li>
@@ -206,7 +206,7 @@ const Resources = () => {
                 style={linkStyle}
                 to={`${link.url}?utm_source=starter&utm_medium=start-page&utm_campaign=minimal-starter`}
               >
-                {link.text}
+                {link.url}
               </Link>
             </span>
           </li>
@@ -223,7 +223,7 @@ const Resources = () => {
                 style={linkStyle}
                 to={`${link.url}?utm_source=starter&utm_medium=start-page&utm_campaign=minimal-starter`}
               >
-                {link.text}
+                {link.url}
               </Link>
             </span>
           </li>
@@ -240,7 +240,7 @@ const Resources = () => {
                 style={linkStyle}
                 to={`${link.url}?utm_source=starter&utm_medium=start-page&utm_campaign=minimal-starter`}
               >
-                {link.text}
+                {link.url}
               </Link>
             </span>
           </li>
