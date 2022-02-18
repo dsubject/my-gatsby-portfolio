@@ -7,10 +7,12 @@ module.exports = {
         link:'/'
       }
     ],
-    description: "Danielle Subject's portfolio website",
-    url: "https://www.daniellesubject.com",
+    description: "Danielle Subject's portfolio",
+    siteUrl: "https://www.daniellesubject.com",
     twitterUsername: "@danisubject",
-    image: "/encryptas.png",
+    image: "/websiteBanner.png",
+    author: "Danielle Subject",
+    keywords: `green software, green tech, mental health, beekeeping`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
