@@ -7,7 +7,7 @@ module.exports = {
         link: '/'
       }
     ],
-    description: "Danielle Subject's portfolio",
+    description: "I'm a software developer with a special interest in creating a greener web. Welcome to my low-carbon website.",
     siteUrl: 'https://www.daniellesubject.com',
     twitterUsername: '@danisubject',
     image: '/encryptas.png',
