@@ -8,8 +8,8 @@ import GithubIcon from '../assets/github.svg'
 const Footer = () => {
   return (
     <div>
-      <a href='https://www.instagram.com/changingthesubject/' target='_blank'>
-        <img src={InstagramIcon} alt='instagram icon' />
+      <a href='https://twitter.com/DaniSubject' target='_blank'>
+        <img src={InstagramIcon} alt='twitter icon' />
       </a>{' '}
       <a href='https://www.linkedin.com/in/danielle-subject/' target='_blank'>
         <img src={LinkedInIcon} alt='linkedin icon' />
