@@ -1,12 +1,16 @@
 module.exports = {
   siteMetadata: {
-    title: "My Gatsby Portfolio",
-        menuLinks:[
+    title: "Danielle Subject",
+    menuLinks:[
       {
         name: 'home',
         link:'/'
       }
-    ]
+    ],
+    description: "Danielle Subject's portfolio website",
+    url: "https://www.daniellesubject.com",
+    twitterUsername: "@danisubject",
+    image: "/encryptas.png",
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
