@@ -17,7 +17,7 @@ const pageStyles = {
 const Layout = ({ children, title, desc, image, keywords }) => {
   return (
     <main className='main-container' style={pageStyles}>
-      <SEO title={title} description={desc} metaImage={image} />
+      <SEO title={title} description={desc} image={image} />
       {children}
       <Footer />
     </main>
