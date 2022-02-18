@@ -77,7 +77,7 @@ const Resources = () => {
     <Layout 
       title='Danielle Subject: Green Software'
       desc='A collection of green software resources'
-      image='/websiteBanner.png'
+      image='../assets/websiteBanner.png'
       >
       <Link to='/'>home</Link>
       <h1 style={headingStyles}>
