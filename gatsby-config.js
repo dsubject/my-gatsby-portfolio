@@ -10,7 +10,7 @@ module.exports = {
     description: "Danielle Subject's portfolio",
     siteUrl: "https://www.daniellesubject.com",
     twitterUsername: "@danisubject",
-    image: "/websiteBanner.png",
+    image: "./assets/websiteBanner.png",
     author: "Danielle Subject",
     keywords: `green software, green tech, mental health, beekeeping`,
   },
