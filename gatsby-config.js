@@ -1,18 +1,18 @@
 module.exports = {
   siteMetadata: {
-    title: "Danielle Subject",
-    menuLinks:[
+    title: 'Danielle Subject',
+    menuLinks: [
       {
         name: 'home',
-        link:'/'
+        link: '/'
       }
     ],
     description: "Danielle Subject's portfolio",
-    siteUrl: "https://www.daniellesubject.com",
-    twitterUsername: "@danisubject",
-    image: "./assets/websiteBanner.png",
-    author: "Danielle Subject",
-    keywords: `green software, green tech, mental health, beekeeping`,
+    siteUrl: 'https://www.daniellesubject.com',
+    twitterUsername: '@danisubject',
+    image: './assets/encryptas.png',
+    author: 'Danielle Subject',
+    keywords: `green software, green tech, mental health, beekeeping`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -25,10 +25,10 @@ module.exports = {
             options: {
               maxWidth: 800,
               showCaptions: true
-            },
-          },
-        ],
-      },
+            }
+          }
+        ]
+      }
     },
     {
       resolve: `gatsby-plugin-sharp`,
@@ -44,9 +44,9 @@ module.exports = {
         stripMetadata: true,
         defaultQuality: 50,
         loading: 'lazy'
+      }
     },
-  },
     `gatsby-plugin-gatsby-cloud`,
-    `gatsby-transformer-sharp`,
-  ],
-};
+    `gatsby-transformer-sharp`
+  ]
+}

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
 import Footer from './footer'
-import SEO from "./seo"
+import SEO from './seo'
 
 const pageStyles = {
   color: 'rgba(255, 255, 255, 0.88)',
@@ -17,10 +17,7 @@ const pageStyles = {
 const Layout = ({ children, title, desc, image, keywords }) => {
   return (
     <main className='main-container' style={pageStyles}>
-      <SEO
-        title={title} 
-        description={desc}
-        image={image} />
+      <SEO title={title} description={desc} metaImage={image} />
       {children}
       <Footer />
     </main>

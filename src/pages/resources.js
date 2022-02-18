@@ -43,7 +43,8 @@ const links = [
   },
   {
     text: 'The Carbon Footprint of Sending Data',
-    url: 'https://observablehq.com/@mrchrisadams/carbon-footprint-of-sending-data-around'
+    url:
+      'https://observablehq.com/@mrchrisadams/carbon-footprint-of-sending-data-around'
   },
   {
     text: 'The Lean Web',
@@ -74,17 +75,18 @@ const links = [
 
 const Resources = () => {
   return (
-    <Layout 
+    <Layout
       title='Danielle Subject: Green Software'
       desc='A collection of green software resources'
       image='../assets/websiteBanner.png'
-      >
+    >
       <Link to='/'>home</Link>
       <h1 style={headingStyles}>
         <span style={headingAccentStyles}>[Green Software Links]</span>
       </h1>
       <p>
-        Here's a list I've compiled of some of my favourite websites and articles regarding green tech.
+        Here's a list I've compiled of some of my favourite websites and
+        articles regarding green tech.
       </p>
       <ul style={listStyles}>
         {links.map(link => (
