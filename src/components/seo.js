@@ -54,7 +54,7 @@ resolve duplicate content issues  */
         },
         {
           name: "keywords",
-          content: site.siteMetadata.keywords.join(","),
+          content: site.siteMetadata.keywords,
         },
         {
           property: `og:title`,
