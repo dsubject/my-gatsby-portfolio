@@ -153,7 +153,7 @@ const tools = [
 const Resources = () => {
   return (
     <Layout
-      title='Danielle Subject: Green Computing'
+      title='Green Computing'
       desc='A collection of green computing resources'
       image='/greenSoftware.png'
     >
