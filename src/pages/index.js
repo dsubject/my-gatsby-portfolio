@@ -55,7 +55,7 @@ const links = [
 // markup
 const IndexPage = () => {
   return (
-    <Layout title='Danielle Subject: Home' image='/homeBanner.png'>
+    <Layout title='Home' image='/homeBanner.png'>
       <h1 style={headingStyles}>
         Dani Subject
         <br />
