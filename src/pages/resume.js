@@ -15,7 +15,7 @@ const headingAccentStyles = {
 // markup
 const ResumePage = () => {
   return (
-    <Layout title="Danielle Subject: Resume">
+    <Layout title="Resume">
       <Link to='/'>home</Link>
       <h1 style={headingStyles}>
         Dani Subject
