@@ -55,7 +55,7 @@ const links = [
 // markup
 const IndexPage = () => {
   return (
-    <Layout title='Home' image='/homeBanner.png'>
+    <Layout image='/homeBanner.png'>
       <h1 style={headingStyles}>
         Dani Subject
         <br />
