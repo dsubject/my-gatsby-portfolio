@@ -147,7 +147,7 @@ const tools = [
   {
     text: 'The Green Web Foundation',
     url: 'https://www.thegreenwebfoundation.org/'
-  }
+  },
   {
     text: 'Image Optimization: TinyPNG',
     url: 'https://tinypng.com/'
