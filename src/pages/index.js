@@ -34,7 +34,7 @@ const links = [
     color: '#DDB8FF'
   },
   {
-    text: 'Green Computing',
+    text: 'Green Software Resources',
     url: 'https://daniellesubject.com/resources',
     color: '#DDB8FF',
     icon: '🌱',

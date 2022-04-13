@@ -149,9 +149,14 @@ const tools = [
     url: 'https://www.thegreenwebfoundation.org/'
   }
   {
-    text: 'TinyPNG',
+    text: 'Image Optimization: TinyPNG',
     url: 'https://tinypng.com/'
+  },
+  {
+    text: 'How Green Are Your Third Party Resources?',
+    url: 'https://aremythirdpartiesgreen.com/'
   }
+
 ]
 
 const Resources = () => {
