@@ -10,7 +10,7 @@ module.exports = {
     description: "I'm a software developer with a special interest in creating a greener web. Welcome to my low-carbon website.",
     siteUrl: 'https://www.daniellesubject.com',
     twitterUsername: '@danisubject',
-    image: '/homeBanner.png',
+    image: '/homeBanner.jpeg',
     author: 'Danielle Subject',
     keywords: ['green software', 'green tech', 'software developer', 'beekeeping']
   },
