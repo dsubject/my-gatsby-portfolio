@@ -41,11 +41,6 @@ const links = [
     alt: 'seedling emoji'
   },
   {
-    text: 'Resumé',
-    url: 'https://daniellesubject.com/resume',
-    color: '#DDB8FF'
-  },
-  {
     text: 'From the Archives',
     url: 'https://daniellesubject.com/archives',
     color: '#DDB8FF'
