@@ -1,5 +1,5 @@
 <h1 align="center">
-  My Low-Carbon Website
+  [Deprecated] My Low-Carbon Website 
 </h1>
 
 ## Leading by example...
